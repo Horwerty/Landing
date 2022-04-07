@@ -1,0 +1,87 @@
+
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body {
+      background-color: (255, 255, 255);
+      /* justify-content: center;
+      align-items: center; */
+}
+
+.logoButton .bx {
+      font-size: 3.5rem;
+      margin: 20px 6.5rem;
+      color: rgb(0, 179, 255);
+}
+
+.container {
+      border-style: outset;
+      margin: 100px auto;
+      width: 47vh;
+      height: 65vh;
+      border-radius: 15px;
+}
+
+/* .logoButton h2 {
+      
+      color: rgb(0, 187, 255);
+} */
+
+.forms {
+      margin-top: 28px;
+      margin-left: 15px;
+}
+
+.usern i {
+      position: absolute;
+      padding: 18.8px;
+}
+
+.passn i {
+      position: absolute;
+      padding: 18.8px;
+}
+
+input {
+      width: 38vh;
+      margin: 10px;
+      height: 30px;
+      border-radius: 10px;
+      padding-left:10px;
+      box-shadow: 25px 25px 5px white inset;
+      border-style: outset;
+      text-align: center;
+}
+
+h2 {
+    color: rgb(0, 179, 255); 
+    /* margin-top: 15px; */
+    margin-left: 10vh;
+}
+
+button {
+      width: 38vh;
+      margin: 10px;
+      height: 25px;
+      border-radius: 10px;
+      background-color: rgb(0, 166, 255);
+      border-style: hidden;
+      box-shadow: 0 4px 8px 0 rgba(116, 129, 137, 0.229);
+       transition: 0.5s ease-in; 
+}
+
+button:hover {
+      background-color: rgba(0, 68, 255, 0.584);
+      color: white;
+}
+
+.name {
+  background-color: rgb(0, 166, 255); 
+  border-radius: 20px;
+  width: 110px;
+  margin-left: 24vh;
+  margin-top: 7vh;
+}
